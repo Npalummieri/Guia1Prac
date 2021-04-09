@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                     /*EJERCICIO 1
-        double area;                ///Preguntar si en los main tambien se declaran con public/private
+        double area;
         double perimetro;
 
         Rectangulo rectangle = new Rectangulo(10,20);
@@ -63,22 +63,24 @@ public class Main {
 
                                                  */
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        /*                                  EJERCICIO 3 (Chequear metodo ToString() de la resolucion)
+                                        /// EJERCICIO 3 (Chequear metodo ToString() de la resolucion)
 
-        itemVenta bebida =new itemVenta(2,"Bebida sabor cola",12,150.50);
-        itemVenta donSatur = new itemVenta(3,"Los salados pa",10,25.10);
+        /*
+        itemVenta bebida =new itemVenta(2,"Coquita",12,150.50);
+        itemVenta donSatur = new itemVenta(3,"los que no son dulces",10,25.10);
 
-        double precio;
 
 
-        ///donSatur.calculoTotal()
+
+        double precio = donSatur.calculoTotal();
         System.out.println(bebida.muestraProducto());
         System.out.println("Calculo total : "+precio);
 
 
          */
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        /*                              EJERCICIO 4,en comparacion a la resolucion me quedo muy cargado el main,pero bueno
+        /*                              EJERCICIO 4,Hacer lo hace bien,pero el main esta ultracargado (no sirve),pero bueno
                                                     tambien podria agregar un switch por si queres acreditar/debitar cuantas veces quieras
 
         Scanner scan =new Scanner(System.in);
@@ -103,7 +105,7 @@ public class Main {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /*                                      EJERCICIO 5 Cumple con la consigna PERO tuve que hacer trampa con el sout
                                                             modularizando c/funcion como en la resolucion quedaria mejor (repasar)
-         */
+
         Hora primerReloj = new Hora(23, 59,58);
 
         primerReloj.muestraHora();
@@ -122,7 +124,7 @@ public class Main {
         primerReloj.muestraHora();
         primerReloj.restarSegundo();
         primerReloj.muestraHora();
-        /*
+        */
 
 
 

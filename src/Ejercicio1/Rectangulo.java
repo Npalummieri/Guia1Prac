@@ -30,6 +30,7 @@ public class Rectangulo {
     {
         return ancho;
     }
+
     public void setAncho(double ancho)
     {
         this.ancho=ancho;
